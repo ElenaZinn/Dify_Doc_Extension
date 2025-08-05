@@ -1,6 +1,6 @@
 # Dify Knowledge Base Chrome Extension
 
-这是一个 Chrome 浏览器扩展，可以帮助用户将当前网页内容保存到 Dify 知识库中。
+这是一个 Chrome 浏览器扩展，可以帮助用户将当前网页内容保存到 Dify 知识库中。使用Cursor创建和调试，网络配置可能不同，如果有问题请用Cursor调试
 
 <img width="1231" height="416" alt="image" src="https://github.com/user-attachments/assets/0eaadb55-7b87-4f12-a71b-85cc94deb937" />
 
