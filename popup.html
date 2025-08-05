@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dify Knowledge Base</title>
+  <style>
+    body {
+      width: 320px;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f5f5f7;
+    }
+
+    .container {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 18px;
+      margin: 0 0 16px 0;
+      color: #1d1d1f;
+    }
+
+    .form-group {
+      margin-bottom: 12px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      color: #86868b;
+      margin-bottom: 4px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #d2d2d7;
+      border-radius: 6px;
+      font-size: 14px;
+      box-sizing: border-box;
+      transition: border-color 0.2s;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #0071e3;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    button {
+      flex: 1;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .primary {
+      background-color: #0071e3;
+      color: white;
+    }
+
+    .primary:hover {
+      background-color: #0077ed;
+    }
+
+    .secondary {
+      background-color: #e8e8ed;
+      color: #1d1d1f;
+    }
+
+    .secondary:hover {
+      background-color: #dedee3;
+    }
+
+    .status {
+      margin-top: 12px;
+      font-size: 13px;
+      color: #86868b;
+      text-align: center;
+    }
+
+    .success {
+      color: #29a644;
+    }
+
+    .error {
+      color: #ff3b30;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Dify Knowledge Base</h1>
+    <div class="form-group">
+      <label for="apiToken">API Token</label>
+      <input type="password" id="apiToken" placeholder="Enter your Dify API token">
+    </div>
+    <div class="form-group">
+      <label for="datasetId">Knowledge Base ID</label>
+      <input type="text" id="datasetId" placeholder="Enter your dataset ID">
+    </div>
+    <div class="button-group">
+      <button class="secondary" id="clearBtn">Clear Settings</button>
+      <button class="primary" id="saveBtn">Save Content</button>
+    </div>
+    <div class="status" id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Dify Knowledge Base",
+  "version": "1.0",
+  "description": "Save web page content to your Dify knowledge base",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://localhost:80/*"
+  ]
+} 
