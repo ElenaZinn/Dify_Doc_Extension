@@ -2,6 +2,12 @@
 
 这是一个 Chrome 浏览器扩展，可以帮助用户将当前网页内容保存到 Dify 知识库中。
 
+<img width="1231" height="416" alt="image" src="https://github.com/user-attachments/assets/0eaadb55-7b87-4f12-a71b-85cc94deb937" />
+
+<img width="1146" height="299" alt="image" src="https://github.com/user-attachments/assets/e2848eee-1a0f-42ee-a74e-15b0dd9fdc1a" />
+
+
+
 ## 功能特点
 
 - 苹果风格的用户界面
